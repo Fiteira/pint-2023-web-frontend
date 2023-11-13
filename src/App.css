@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-primary{
+  --bs-btn-bg: #09639C !important;
+  --bs-btn-border-color:#09639C !important;
+  --bs-btn-hover-bg:#085585 !important;
+}
+
+.btn-outline-primary{
+  --bs-btn-border-color:#09639C !important;
+  --bs-btn-hover-bg:#085585 !important;
+  --bs-btn-hover-border-color:#09639C !important;
+}
+
+.btn-secondary{
+  --bs-btn-bg: #00B8E0 !important; 
+  --bs-btn-hover-bg:#0193b4 !important;
+}
+  
+
+.form-check-input:checked {
+  background-color: #09639C !important;
+  border-color:#09639C !important;
+}
+
+input[readonly] {
+  background-color: #f2f2f2;
+  color: #353535;
+  cursor: not-allowed;
+  border: 1px solid #dddddd;
+}

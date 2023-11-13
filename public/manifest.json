@@ -1,0 +1,20 @@
+{
+  "short_name": "App Softinsa",
+  "name": "PINT 2032 Softinsa",
+  "icons": [
+    {
+      "src": "min-logo-softinsa.png",
+      "type": "image/png",
+      "sizes": "69x121"
+    },
+    {
+      "src": "logo-softinsa.png",
+      "type": "image/png",
+      "sizes": "401x121"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,101 @@
+.form-group.mb-3 {
+    text-align: center;
+  }
+  .login-container * {
+
+    margin: 0;
+    box-sizing: border-box;
+
+  }
+  
+  .login-container body {
+    height: 100vh;
+  }
+  
+  .login-container .container {
+    margin: 50px auto;
+  }
+  
+  .login-container .panel-heading {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-container #forgot {
+    min-width: 100px;
+    margin-left: auto;
+    text-decoration: none;
+  }
+  
+  .login-container a:hover {
+    text-decoration: none;
+  }
+  
+  .login-container .form-inline label {
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .login-container .btn.btn-primary {
+    margin-top: 20px;
+  }
+  
+  .login-container .panel {
+    min-height: 380px;
+    box-shadow: 20px 20px 80px rgb(218, 218, 218);
+    border-radius: 12px;
+  }
+  
+  .login-container .input-field {
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    color: #4343ff;
+  }
+  
+  .login-container input[type='text'],
+  .login-container input[type='password'] {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+  }
+  
+  .login-container .fa-eye-slash.btn {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .login-container img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .login-container a[target='_blank'] {
+    position: relative;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .login-container .bordert {
+    border-top: 1px solid #aaa;
+    position: relative;
+  }
+  
+  .login-container .bordert:after {
+    content: "ou inicie sessão com";
+    position: absolute;
+    top: -13px;
+    left: 33%;
+    background-color: #fff;
+    padding: 0px 8px;
+  }
+  
+  

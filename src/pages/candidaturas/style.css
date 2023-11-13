@@ -1,0 +1,42 @@
+.table td,
+.table th {
+  text-align: left;
+}
+.transparent-btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: blue;
+  }
+
+  #divesquerda{
+    height: 100%;
+    text-align: left;
+  }
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+  #divdireita{
+    text-align: left;
+  }
+  a{
+    text-align: center;
+  }
+  #idbotoes{
+    text-align: right;
+  }
+  #boneco{
+    height: 70%;
+    width: 90%;
+    margin-top: 38%;
+  }
+  #divflex{
+    display: flex;
+    padding-top: 2%;
+  }
+
+
+  .simple1{
+      height: 10.4rem;
+  }

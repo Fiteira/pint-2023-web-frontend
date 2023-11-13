@@ -1,0 +1,43 @@
+.table td,
+.table th {
+  text-align: left;
+}
+.transparent-btn {
+    background-color: transparent;
+    border-color: transparent;
+    color: blue;
+  }
+
+.mt-6 {
+    margin-top: 6rem;
+}
+  a{
+    text-align: center;
+  }
+
+  #divflex{
+    display: flex;
+    padding-top: 2%;
+  }
+
+  .card-sombra {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.295);
+    transition: none;
+  }
+
+
+.btn-info{
+  --bs-btn-bg: #c2c2c2 !important;
+  --bs-btn-border-color:#808080 !important;
+  --bs-btn-hover-bg:#808080 !important;
+}
+
+.corExterna {
+    --bs-bg-opacity: 1;
+    background-color: #d4d4d4;
+}
+
+.corInterna{
+  --bs-bg-opacity: 1;
+  background-color: #747474;
+}
